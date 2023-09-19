@@ -24,7 +24,6 @@ function StatCardDisplay () {
 
     //get player profile
     const initStats = async (term) => { 
-        const data = {}
         if(!term) return;
         await axios.get('https://www.balldontlie.io/api/v1/players', {
             params: {

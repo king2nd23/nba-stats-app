@@ -5,7 +5,7 @@ function StatCard ({data}) {
             <div className="card">
                 <h1>{data.playerProfile.first_name} {data.playerProfile.last_name}</h1>
                 <div className="img w-1/3">
-                    <img src={data.playerImage} alt={`photo of ${data.playerProfile.first_name} ${data.playerProfile.last_name}`}/>
+                    <img src={data.playerImage} alt={`${data.playerProfile.first_name} ${data.playerProfile.last_name}`}/>
                 </div>
                 <div className="data w-2/3">
                     <ul>
